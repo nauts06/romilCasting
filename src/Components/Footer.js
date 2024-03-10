@@ -10,12 +10,11 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              
+Casting Plus <span className="ft-sign">+</span>
             </p>
             <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
+            Connect with our casting directors and get expert advice, audition opportunities, casting notes, and casting solutions within minutes. On-demand casting services at your fingertips.
             </p>
           </div>
 
@@ -23,70 +22,74 @@ function Footer() {
         </div>
 
         <div className="ft-list">
-          <p className="ft-list-title">Services</p>
-          <ul className="ft-list-items">
-            <li>
-              <a href="#services">Emergency Care</a>
-            </li>
-            <li>
-              <a href="#services">Heart Disease</a>
-            </li>
-            <li>
-              <a href="#services">Dental Care</a>
-            </li>
-            <li>
-              <a href="#services">Prescription</a>
-            </li>
-            <li>
-              <a href="#services">Insights for doctors</a>
-            </li>
-          </ul>
-        </div>
+  <p className="ft-list-title">Casting Services</p>
+  <ul className="ft-list-items">
+    <li>
+      <a href="#services">Audition Opportunities</a>
+    </li>
+    <li>
+      <a href="#services">Talent Selection</a>
+    </li>
+    <li>
+      <a href="#services">Casting Solutions</a>
+    </li>
+    <li>
+      <a href="#services">Expert Advice</a>
+    </li>
+    <li>
+      <a href="#services">Production Insights</a>
+    </li>
+  </ul>
+</div>
 
-        <div className="ft-list">
-          <p className="ft-list-title">Legal</p>
-          <ul className="ft-list-items">
-            <li>
-              <Link to={"/legal"}>General Info</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Privacy Policy</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Terms of Services</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Consultations</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>How it Works</Link>
-            </li>
-          </ul>
-        </div>
+<div className="ft-list">
+  <p className="ft-list-title">Legal</p>
+  <ul className="ft-list-items">
+    <li>
+      <Link to={"/legal"}>Casting Guidelines</Link>
+    </li>
+    <li>
+      <Link to={"/legal"}>Privacy Policy</Link>
+    </li>
+    <li>
+      <Link to={"/legal"}>Terms of Services</Link>
+    </li>
+    <li>
+      <Link to={"/legal"}>Consultation Terms</Link>
+    </li>
+    <li>
+      <Link to={"/legal"}>How Casting Works</Link>
+    </li>
+  </ul>
+</div>
+
+
+
+
 
         <div className="ft-list" id="contact">
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:teamromilcasting@gmail.com">teamromilcasting@gmail.com</a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
+              <a href="mailto:teamromilcasting@gmail.com">
+              teamromilcasting@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
+              <a href="tel:+022 5454 5252">+91 86983 08300</a>
             </li>
             <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+              <a href="tel:+022 2326 6232">+91 86983 08300</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2013-2024   Casting+. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>

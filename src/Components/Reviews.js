@@ -32,7 +32,7 @@ function Reviews() {
 
   return (
     <div className="review-section" id="reviews">
-      <div className="rw-text-content">
+      {/* <div className="rw-text-content">
         <p className="rw-text-title">
           More over <span className="rw-text-num">1500+ Customers</span>
         </p>
@@ -68,7 +68,7 @@ function Reviews() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

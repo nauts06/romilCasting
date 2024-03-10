@@ -5,6 +5,7 @@ import {
   faBars,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -31,7 +32,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          Romil Casting <span className="navbar-sign">+</span>
         </Link>
       </h1>
 
@@ -58,20 +59,28 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
-            Doctors
-          </a>
+          <a href="#project" className="navbar-links">
+          Project's          </a>
         </li>
       </ul>
 
-      <button
+      {/* <button
         className="navbar-btn"
         type="button"
         disabled={isButtonDisabled}
         onClick={handleChatBtnClick}
       >
         <FontAwesomeIcon icon={faCommentDots} /> Live Chat
-      </button>
+      </button> */}
+
+<button
+  className="navbar-btn"
+  type="button"
+  disabled={isButtonDisabled}
+  onClick={handleChatBtnClick}
+>
+  <FontAwesomeIcon icon={faWhatsapp}  /> Live Chat
+</button>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
@@ -101,8 +110,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
+            <a onClick={openNav} href="#project">
+              Project
             </a>
           </li>
           <li>
