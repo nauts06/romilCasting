@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCommentDots,
-  faBars,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+// import {
+//   faCommentDots,
+//   faBars,
+//   faXmark,
+// } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
@@ -85,7 +85,7 @@ function Navbar() {
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
-          <FontAwesomeIcon icon={faXmark} className="hamb-icon" />
+          <FontAwesomeIcon  className="hamb-icon" />
         </div>
 
         <ul className="mobile-navbar-links">
@@ -125,7 +125,7 @@ function Navbar() {
       {/* Hamburger Icon */}
       <div className="mobile-nav">
         <FontAwesomeIcon
-          icon={faBars}
+          // icon={faBars}
           onClick={openNav}
           className="hamb-icon"
         />

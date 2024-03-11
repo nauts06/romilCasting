@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Doctor from "../Assets/romil.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+// import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/Hero.css";
 
@@ -105,7 +105,8 @@ function Hero() {
             type="button"
             onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            {/* <FontAwesomeIcon icon={faCalendarCheck} /> */}
+             Book Appointment
           </button>
           <div className="text-stats">
             <div className="text-stats-container">
@@ -134,7 +135,7 @@ function Hero() {
         onClick={scrollToTop}
         className={`scroll-up ${goUp ? "show-scroll" : ""}`}
       >
-        <FontAwesomeIcon icon={faAngleUp} />
+        {/* <FontAwesomeIcon icon={faAngleUp} /> */}
       </div>
       <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden' }}>
       <button

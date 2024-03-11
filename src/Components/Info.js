@@ -1,8 +1,8 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
+// import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
-import { faVideo , faPeopleGroup , faSearch } from '@fortawesome/free-solid-svg-icons';
+// import { faVideo , faPeopleGroup , faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
 
 function Info() {
@@ -22,19 +22,19 @@ function Info() {
           title="Auditions and Casting Calls"
           description="Casting directors organize auditions and casting calls to find the right actors, models, or performers for various projects such as films, TV shows, commercials, and theater productions. They review portfolios, conduct auditions, and make casting decisions based on the project's requirements."
 
-          icon={faVideo}
+          // icon={faVideo}
         />
 
         <InformationCard
           title="Talent Scouting and Networking"
           description=" Casting directors are constantly scouting for new talent. They attend events, watch performances, and network with agents, managers, and industry professionals to discover new actors and performers who fit specific roles or have unique qualities."
-          icon={faPeopleGroup}
+          // icon={faPeopleGroup}
         />
 
         <InformationCard
           title="Role Analysis and Casting Strategy"
           description="Casting directors work closely with directors, producers, and writers to understand the script, analyze character roles, and develop a casting strategy. They consider factors such as the project's budget, target audience, and artistic vision when selecting the right talent for each role."
-          icon={faSearch}
+          // icon={faSearch}
         />
       </div>
     </div>
