@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faCommentDots,
 //   faBars,
@@ -79,13 +79,14 @@ function Navbar() {
   disabled={isButtonDisabled}
   onClick={handleChatBtnClick}
 >
-  <FontAwesomeIcon icon={faWhatsapp}  /> Live Chat
+  {/* <FontAwesomeIcon icon={faWhatsapp}  />  */}
+  Live Chat
 </button>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
-          <FontAwesomeIcon  className="hamb-icon" />
+          {/* <FontAwesomeIcon  className="hamb-icon" /> */}
         </div>
 
         <ul className="mobile-navbar-links">
@@ -124,7 +125,12 @@ function Navbar() {
 
       {/* Hamburger Icon */}
       <div className="mobile-nav">
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
+          // icon={faBars}
+          onClick={openNav}
+          className="hamb-icon"
+        /> */}
+        <div
           // icon={faBars}
           onClick={openNav}
           className="hamb-icon"

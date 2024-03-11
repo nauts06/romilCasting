@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Doctor from "../Assets/doctor-book-appointment.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faCircleCheck,
 //   faCalendarCheck,

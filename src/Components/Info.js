@@ -3,7 +3,7 @@ import InformationCard from "./InformationCard";
 // import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
 // import { faVideo , faPeopleGroup , faSearch } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
 
 function Info() {
   return (
