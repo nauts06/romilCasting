@@ -5,7 +5,7 @@ import React, { useState } from "react";
 //   faBars,
 //   faXmark,
 // } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
